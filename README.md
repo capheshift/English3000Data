@@ -20,11 +20,11 @@ wordsList.getAll();
 
 MIT © [Tam Pham](capheshift.tumblr.com)
 
-[npm-image]: https://badge.fury.io/js/sudo-db.svg
-[npm-url]: https://npmjs.org/package/sudo-db
-[travis-image]: https://travis-ci.org/capheshift/sudo-db.svg?branch=master
-[travis-url]: https://travis-ci.org/capheshift/sudo-db
-[daviddm-image]: https://david-dm.org/capheshift/sudo-db.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/capheshift/sudo-db
-[coveralls-image]: https://coveralls.io/repos/capheshift/sudo-db/badge.svg
-[coveralls-url]: https://coveralls.io/r/capheshift/sudo-db
+[npm-image]: https://badge.fury.io/js/3000-words-list.svg
+[npm-url]: https://npmjs.org/package/3000-words-list
+[travis-image]: https://travis-ci.org/capheshift/3000-words-list.svg?branch=master
+[travis-url]: https://travis-ci.org/capheshift/3000-words-list
+[daviddm-image]: https://david-dm.org/capheshift/3000-words-list.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/capheshift/3000-words-list
+[coveralls-image]: https://coveralls.io/repos/capheshift/3000-words-list/badge.svg
+[coveralls-url]: https://coveralls.io/r/capheshift/3000-words-list
