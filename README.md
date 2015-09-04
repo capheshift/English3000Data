@@ -1,5 +1,5 @@
-# 3000-words-list [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> This is a list of the 3000 most commonly used words in American newspapers and popular magazines.
+# 3000-words-list
+This is a list of the 3000 most commonly used words in American newspapers and popular magazines.
 
 
 ## Install
