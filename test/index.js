@@ -13,6 +13,6 @@ describe('3000-words-list', function () {
   });
 
   it('should access all of words', function () {
-    assert((wordsList.wordsList().length === 16), 'we expected this package return 16 fluquent words.');
+    assert((wordsList.getAll().length === 16), 'we expected this package return 16 fluquent words.');
   });
 });
