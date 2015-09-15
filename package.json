@@ -1,9 +1,9 @@
 {
-  "name": "3000-words-list",
+  "name": "english3kdata",
   "version": "0.0.3",
   "description": "a list of the 3000 most frequent words in both spoken and written English",
   "homepage": "",
-  "repository": "capheshift/3000-words-list",
+  "repository": "capheshift/english3kdata",
   "author": {
     "name": "Tam Pham",
     "email": "tampham47@live.com",
