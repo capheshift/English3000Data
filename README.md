@@ -1,18 +1,18 @@
-# 3000-words-list [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# English3000Data [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > This is a list of the 3000 most commonly used words in American newspapers and popular magazines.
 
 
 ## Install
 
 ```sh
-$ npm install --save 3000-words-list
+$ npm install --save english-3000-data
 ```
 
 
 ## Usage
 
 ```js
-var wordsList = require('3000-words-list');
+var wordsList = require('english-3000-data');
 wordsList.getAll();
 ```
 
