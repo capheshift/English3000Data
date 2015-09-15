@@ -22,7 +22,7 @@ router.post('/postword', function(req, res) {
 router.get('/pronunciation', function(req, res) {
     var wordsData = [];
     var keyword = req.params.keyword;
-    async.forEachOf(wordlist.getAll(), function(word, key, callback) {
+    async.forEach(wordlist.getAll(), function(word, key, callback) {
         var url = 'http://www.oxforddictionaries.com/definition/english/' + word.name;
         request(url, function(err, response, body) {
             if (!err && response.statusCode == 200) {
@@ -46,7 +46,6 @@ router.get('/pronunciation', function(req, res) {
                 });
                 words.data = jsdata;
                 wordsData.push(words);
-                console.log(word.name);
 
                 if (wordsData.length === (wordlist.getLength() - 1)) {
                     callback(wordsData);
@@ -54,8 +53,7 @@ router.get('/pronunciation', function(req, res) {
             }
         });
     }, function(results) {
-        writeJSONFile(results);
-        return res.jsonp(results);
+        console.log(results);
     })
 });
 
