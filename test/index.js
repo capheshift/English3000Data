@@ -1,18 +1,13 @@
-'use strict';
 
 var assert = require('assert');
-var wordsList = require('../lib');
+var wordList = require('../lib');
 
-describe('3000-words-list', function () {
+describe('English3000Data', function () {
   it('should have unit test!', function () {
     assert(true, 'we expected this package author to add actual unit tests.');
   });
 
-  it('should have 16 words', function () {
-    assert((wordsList.getLength() === 16), 'we expected this package return 16 fluquent words.');
-  });
-
-  it('should access all of words', function () {
-    assert((wordsList.getAll().length === 16), 'we expected this package return 16 fluquent words.');
+  it('can acess data!', function () {
+    assert((wordList.getLength() === wordList.data.length), 'we expected that word list can return the length of this.');
   });
 });
