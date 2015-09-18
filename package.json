@@ -1,6 +1,6 @@
 {
   "name": "english3kdata",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a list of the 3000 most frequent words in both spoken and written English",
   "homepage": "",
   "repository": "capheshift/english3kdata",
