@@ -1,18 +1,19 @@
-# English3000Data [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# English3000Data
 > This is a list of the 3000 most commonly used words in American newspapers and popular magazines.
+> Data of this package is power by [Oxford3000Crawler](https://github.com/capheshift/Oxford3000Crawler)
 
 
 ## Install
 
 ```sh
-$ npm install --save english-3000-data
+$ npm install --save english3kdata
 ```
 
 
 ## Usage
 
 ```js
-var wordsList = require('english-3000-data');
+var wordsList = require('english3kdata');
 wordsList.getAll();
 ```
 
