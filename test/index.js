@@ -8,6 +8,7 @@ describe('English3000Data', function () {
   });
 
   it('can acess data!', function () {
-    assert((wordList.getLength() === wordList.data.length), 'we expected that word list can return the length of this.');
+    console.log('wordlist', wordList.getLength());
+    assert((wordList.getLength()), 'we expected that word list can return the length of this.');
   });
 });
